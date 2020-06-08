@@ -106,7 +106,7 @@ Open the DSView software, under file and open a sample signal .dsl file. If the 
 
 Open the PulseView software, Click on open and open a sample signal .sr file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-![PULSEVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/PULSEVIEW_Sample.png)
+![PULSEVIEW_Sample](https://user-images.githubusercontent.com/45507004/84035997-2f977180-a9cf-11ea-86d6-c7e7871c9a9b.PNG)
 ## <a name="testingwithsigrok-cli"></a>Testing with sigrok-cli
 
 Open the sigrok command-line tools with a command shell. If the path is set correctly you should be able to  run the sigrok-cli.exe and it will display the help menu.
