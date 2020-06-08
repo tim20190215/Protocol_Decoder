@@ -100,13 +100,14 @@ e.g. to install Infineon Trust M decoder in sigrok-cli copy the directory ifx_tr
 
 Open the DSView software, under file and open a sample signal .dsl file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-![DSVIEW_SAMPLE](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/DSVIEW_Sample.PNG)
+![DSVIEW_Sample](https://user-images.githubusercontent.com/45507004/84036208-7c7b4800-a9cf-11ea-8c5c-b84ad52711e1.PNG)
 
 ## <a name="testingwithpulseview"></a>Testing with PulseView from sigrok
 
 Open the PulseView software, Click on open and open a sample signal .sr file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
 ![PULSEVIEW_Sample](https://user-images.githubusercontent.com/45507004/84035997-2f977180-a9cf-11ea-86d6-c7e7871c9a9b.PNG)
+
 ## <a name="testingwithsigrok-cli"></a>Testing with sigrok-cli
 
 Open the sigrok command-line tools with a command shell. If the path is set correctly you should be able to  run the sigrok-cli.exe and it will display the help menu.
