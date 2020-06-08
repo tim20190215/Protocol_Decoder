@@ -19,9 +19,9 @@ GNU General Public License for more details.
 
 ​	[Contents of the package](#content)
 
-[Getting Started]("#getting started")
+[Getting Started](#getting started)
 
-​	[Installation (for Windows 10)]("#installation")
+​	[Installation (for Windows 10)](#installation)
 
 ​		[DSView](#dsview)
 
@@ -100,7 +100,7 @@ e.g. to install Infineon Trust M decoder in sigrok-cli copy the directory ifx_tr
 
 Open the DSView software, under file and open a sample signal .dsl file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-![DSVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/DSVIEW_Sample.PNG)
+![DSVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/png/DSVIEW_Sample.PNG)
 =======
 <img src="png/DSVIEW_Sample.png" alt="DSVIEW_Sample" style="zoom:100%;" />
 
@@ -108,7 +108,7 @@ Open the DSView software, under file and open a sample signal .dsl file. If the 
 
 Open the PulseView software, Click on open and open a sample signal .sr file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-![PULEVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/PULSEVIEW_Sample.PNG)
+![PULEVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/png/PULSEVIEW_Sample.PNG)
 =======
 <img src="png/PULSEVIEW_Sample.png" alt="PULSEVIEW_Sample" style="zoom:100%;" />
 ## <a name="testingwithsigrok-cli"></a>Testing with sigrok-cli
