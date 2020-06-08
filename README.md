@@ -19,9 +19,9 @@ GNU General Public License for more details.
 
 ​	[Contents of the package](#content)
 
-[Getting Started]("getting started")
+[Getting Started]("#getting started")
 
-​	[Installation (for Windows 10)]("installation")
+​	[Installation (for Windows 10)]("#installation")
 
 ​		[DSView](#dsview)
 
@@ -31,7 +31,7 @@ GNU General Public License for more details.
 
 [Testing with DSView from DreamSourceLab](#testingwithdsview)
 
-[Testing with PulseView from sigrok](#testingwithsigrok)
+[Testing with PulseView from sigrok](#testingwithpulseview)
 
 [Testing with sigrok-cli](#testingwithsigrok-cli)
 
@@ -96,26 +96,21 @@ Copy the Infineon decoder directory to `C:\Program Files (x86)\sigrok\sigrok-cli
 
 e.g. to install Infineon Trust M decoder in sigrok-cli copy the directory ifx_trustm into `C:\Program Files (x86)\sigrok\sigrok-cli\share\libsigrokdecode\decoders`
 
-## <a name="testwithdsview"></a>Testing with DSView from DreamSourceLab
+## <a name="testingwithdsview"></a>Testing with DSView from DreamSourceLab
 
 Open the DSView software, under file and open a sample signal .dsl file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-<<<<<<< HEAD
 ![DSVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/DSVIEW_Sample.PNG)
 =======
 <img src="png/DSVIEW_Sample.png" alt="DSVIEW_Sample" style="zoom:100%;" />
->>>>>>> 8009e77ec977c4c6581d117f06376bdff6aa1b98
 
 ## <a name="testingwithpulseview"></a>Testing with PulseView from sigrok
 
 Open the PulseView software, Click on open and open a sample signal .sr file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-<<<<<<< HEAD
 ![PULEVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/PULSEVIEW_Sample.PNG)
 =======
 <img src="png/PULSEVIEW_Sample.png" alt="PULSEVIEW_Sample" style="zoom:100%;" />
->>>>>>> 8009e77ec977c4c6581d117f06376bdff6aa1b98
-
 ## <a name="testingwithsigrok-cli"></a>Testing with sigrok-cli
 
 Open the sigrok command-line tools with a command shell. If the path is set correctly you should be able to  run the sigrok-cli.exe and it will display the help menu.
