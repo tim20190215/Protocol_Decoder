@@ -13,11 +13,35 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-[TOC]
+[About](#about)
 
-## About
+​	[Prerequisites](#prerequisites)
 
-### Prerequisites
+​	[Contents of the package](#content)
+
+[Getting Started]("getting started")
+
+​	[Installation (for Windows 10)]("installation")
+
+​		[DSView](#dsview)
+
+​		[PulseView](#pulseview)
+
+​		[sigrok-cli](#sigrok-cli)
+
+[Testing with DSView from DreamSourceLab](#testingwithdsview)
+
+[Testing with PulseView from sigrok](#testingwithsigrok)
+
+[Testing with sigrok-cli](#testingwithsigrok-cli)
+
+[Known Issue](#knownissue)
+
+
+
+## <a name="about"></a>About
+
+### <a name="prerequisites"></a>Prerequisites
 
 Ensure that either the following software is install :
 
@@ -28,7 +52,7 @@ Ensure that either the following software is install :
 - sigrok-cli 0.7.1 or higher
   - https://sigrok.org/wiki/Downloads
 
-### Contents of the package
+### <a name="content"></a>Contents of the package
 
 The project consists of the following files & directory:
 
@@ -50,41 +74,41 @@ C:.
 
 
 
-## Getting Started
+## <a name="getting started"></a>Getting Started
 
-### Installation (for Windows 10)
+### <a name="installation"></a>Installation (for Windows 10)
 
-#### DSView
+#### <a name="dsview"></a>DSView
 
 Copy the Infineon decoder directory to `C:\Program Files\DSView\decoders`
 
 e.g. to install Infineon Trust M decoder in DSView copy the directory ifx_trustm into `C:\Program Files\DSView\decoders`
 
-#### PulseView
+#### <a name="pulseview"></a>PulseView
 
 Copy the Infineon decoder directory to `C:\Program Files (x86)\sigrok\PulseView\share\libsigrokdecode\decoders`
 
 e.g. to install Infineon Trust M decoder in PulseView copy the directory ifx_trustm into `C:\Program Files (x86)\sigrok\PulseView\share\libsigrokdecode\decoders`
 
-#### sigrok-cli
+#### <a name="sigrok-cli"></a>sigrok-cli
 
 Copy the Infineon decoder directory to `C:\Program Files (x86)\sigrok\sigrok-cli\share\libsigrokdecode\decoders`
 
 e.g. to install Infineon Trust M decoder in sigrok-cli copy the directory ifx_trustm into `C:\Program Files (x86)\sigrok\sigrok-cli\share\libsigrokdecode\decoders`
 
-## Testing With DSView from Dreamsourcelab
+## <a name="testwithdsview"></a>Testing with DSView from DreamSourceLab
 
 Open the DSView software, under file and open a sample signal .dsl file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-<img src="png\DSVIEW_Sample.png" alt="DSVIEW_Sample" style="zoom:100%;" />
+![DSVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/DSVIEW_Sample.PNG)
 
-## Testing With PulseView from sigrok
+## <a name="testingwithpulseview"></a>Testing with PulseView from sigrok
 
 Open the PulseView software, Click on open and open a sample signal .sr file. If the decoder is install correctly you will be able to see the decoder name. Select the decoder require and assign the necessary signal channel.
 
-<img src="png\PULSEVIEW_Sample.png" alt="PULSEVIEW_Sample" style="zoom:100%;" />
+![PULEVIEW_Sample](https://github.com/tim20190215/Protocol_Decoder/tree/master/png/PULSEVIEW_Sample.PNG)
 
-## Testing with sigrok-cli
+## <a name="testingwithsigrok-cli"></a>Testing with sigrok-cli
 
 Open the sigrok command-line tools with a command shell. If the path is set correctly you should be able to  run the sigrok-cli.exe and it will display the help menu.
 
@@ -176,7 +200,7 @@ To list the available decoder annotation run the following command:
 sigrok-cli -P ifx_trustm --show
 ```
 
-## Known issue
+## <a name="knownissue"></a>Known issue
 
 ### Only tested on Windows 10
 
@@ -185,4 +209,6 @@ The decoder is only tested on Windows 10. But it is assume working for the rest 
 ### Not the complete protocol is implemented
 
 Some of the protocol like the ifx-i2c is not completely implemented.
+
+
 
