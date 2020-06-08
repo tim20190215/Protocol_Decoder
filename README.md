@@ -13,29 +13,29 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-[About](#about)
+------
 
-​	[Prerequisites](#prerequisites)
 
-​	[Contents of the package](#content)
 
-[Getting Started](#gettingstarted)
+- [About](#about)
+  - [Prerequisites](#prerequisites)
+  - [Contents of the package](#content)
 
-​	[Installation (for Windows 10)](#installation)
+- [Getting Started](#gettingstarted)
+  - [Installation (for Windows 10)](#installation)
+    - [DSView](#dsview)
+    - [PulseView](#pulseview)
+    - [sigrok-cli](#sigrok-cli)
 
-​		[DSView](#dsview)
+- [Testing with DSView from DreamSourceLab](#testingwithdsview)
 
-​		[PulseView](#pulseview)
+- [Testing with PulseView from sigrok](#testingwithpulseview)
 
-​		[sigrok-cli](#sigrok-cli)
+- [Testing with sigrok-cli](#testingwithsigrok-cli)
 
-[Testing with DSView from DreamSourceLab](#testingwithdsview)
+- [Known Issue](#knownissue)
 
-[Testing with PulseView from sigrok](#testingwithpulseview)
-
-[Testing with sigrok-cli](#testingwithsigrok-cli)
-
-[Known Issue](#knownissue)
+------
 
 
 
@@ -206,9 +206,11 @@ sigrok-cli -P ifx_trustm --show
 
 The decoder is only tested on Windows 10. But it is assume working for the rest of the OS as long as the DSView or PulseView software support it.
 
-### Not the complete protocol is implemented
+### Not complete protocol is implemented
 
 Some of the protocol like the ifx-i2c is not completely implemented.
 
+### Stack Decoder not supported
 
+The decoder is does not support stack decoder features
 
