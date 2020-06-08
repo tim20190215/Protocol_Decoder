@@ -19,7 +19,7 @@ GNU General Public License for more details.
 
 ​	[Contents of the package](#content)
 
-[Getting Started](#getting started)
+[Getting Started](#gettingstarted)
 
 ​	[Installation (for Windows 10)](#installation)
 
@@ -74,7 +74,7 @@ C:.
 
 
 
-## <a name="getting started"></a>Getting Started
+## <a name="gettingstarted"></a>Getting Started
 
 ### <a name="installation"></a>Installation (for Windows 10)
 
