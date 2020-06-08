@@ -45,7 +45,7 @@ GNU General Public License for more details.
 
 Ensure that either the following software is install :
 
-- DSView V1.1.2 or higher
+- DSView V1.12 or higher
   - https://www.dreamsourcelab.com/download/
 - PulseView 0.4.2 or higher
   - https://sigrok.org/wiki/Downloads
