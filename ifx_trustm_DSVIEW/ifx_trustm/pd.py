@@ -125,7 +125,7 @@ class Decoder(srd.Decoder):
     id = 'ifx_trustm'
     name = '0-IFX_TRUSTM'
     longname = 'Infineon I2C OPTIGA TRUST M'
-    desc = 'OPTIG TRUST M - I2C'
+    desc = 'OPTIGA TRUST M - I2C'
     license = 'gplv2+'
     inputs = ['logic']
     outputs = ['i2c']
@@ -687,7 +687,10 @@ class Decoder(srd.Decoder):
                         self.regdatacnt -= 1
 
             if self.regdatacnt == 1 and (self.addrflag == 1):
-                self.putx_reg([reg[self.reg][0], [reg[self.reg][1], reg[self.reg][2]]])
+                try:
+                    self.putx_reg([reg[0xffff][0], [reg[self.reg][1], reg[self.reg][2]]])
+                except:
+                    self.putx_reg([43, ['PROTOCOL ERROR','ERROR','ERR','E']])
                 self.regdatacnt += 1
                 self.datalink = 0
                 if self.reg == 0x80:
