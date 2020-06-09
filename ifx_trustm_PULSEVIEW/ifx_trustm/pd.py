@@ -668,7 +668,7 @@ class Decoder(srd.Decoder):
 
             if self.regdatacnt == 1 and (self.addrflag == 1):
                 try:
-                    self.putx_reg([reg[0xffff][0], [reg[self.reg][1], reg[self.reg][2]]])
+                    self.putx_reg([reg[self.reg][0], [reg[self.reg][1], reg[self.reg][2]]])
                 except:
                     self.putx_reg([43, ['PROTOCOL ERROR','ERROR','ERR','E']])
                 self.regdatacnt += 1
